@@ -134,7 +134,7 @@ class ContainerBuilder(object):
                 ],
                 'image': 'gcr.io/kaniko-project/executor@sha256:78d44ec4e9cb5545d7f85c1924695c89503ded86a59f92c7ae658afa3cff5400',
             }],
-            'serviceAccountName': 'default'}
+            'serviceAccountName': 'default-editor'}
     }
     return content
 
